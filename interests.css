@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body > * {
+    padding: 0px 20vh;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+}
+
+.games-topic {
+    color: #e6e6e6;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.games img {
+    height: 100px;
+    width: 450px;
+    border: 2px solid #e6e6e6;
+    object-fit: cover;
+    object-position: 0 15%;
+}
+
+/* seperating the main styling from the new page content so it doesn't look confusing lol */
+
+.navbar {
+    display: flex;
+    background-color: #161616;
+    padding: 12px 20vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.title {
+    color: #e6e6e6;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.selections {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.selections a {
+    color: #e6e6e6;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.selections a:hover {
+    color: #8f8f8f;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.content {
+    display: flex;
+    padding: 24px 40vh;
+    flex: 1;
+    gap: 24px;
+}
+
+.footer {
+    display: flex;
+    background-color: #161616;
+    padding: 24px 30vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ftr-left-side {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-title {
+    color: #e6e6e6;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ftr-left-side a {
+    display: flex;
+}
+
+.ftr-left-side img {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.ftr-left-side img:hover {
+    color: #8f8f8f;
+    filter: invert(62%) sepia(0%) saturate(1447%) hue-rotate(262deg) brightness(91%) contrast(95%);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.credits {
+    color: #e6e6e6;
+    font-size: 16px;
+    font-weight: 500;
+}
