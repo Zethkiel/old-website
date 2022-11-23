@@ -59,7 +59,7 @@ body > * {
     transition-timing-function: ease;
 }
 
-.about-me {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,14 +93,6 @@ body > * {
 .about-topic {
     font-size: 30px;
     font-weight: 700;
-}
-
-.interests {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
-    flex-direction: column;
 }
 
 .footer {
