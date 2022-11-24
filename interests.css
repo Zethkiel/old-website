@@ -32,6 +32,11 @@ body > * {
     object-position: 0 15%;
 }
 
+.games p {
+    color: #e6e6e6;
+    font-size: 14px;
+}
+
 /* seperating the main styling from the new page content so it doesn't look confusing lol */
 
 .navbar {
@@ -82,6 +87,7 @@ body > * {
 
 .content {
     display: flex;
+    justify-content: space-between;
     padding: 24px 40vh;
     flex: 1;
     gap: 24px;
