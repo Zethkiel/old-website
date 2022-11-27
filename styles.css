@@ -38,6 +38,7 @@ body {
     padding: 30px 0 30px 0;
     width: 340px;
     overflow: hidden;
+    color: #e6e6e6;
 }
 
 .logo {
@@ -145,6 +146,19 @@ body {
     gap: 12px;
 }
 
+.middle {
+    font-size: 26px;
+}
+
+.email a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
 .vertical-divider {
     display: flex;
     background-color: #464646;
@@ -216,7 +230,7 @@ body {
 
 .desc-info {
     height: 380px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .footer {
