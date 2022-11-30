@@ -22,8 +22,7 @@ body {
 
 .body {
     display: flex;
-    justify-content: space-between;
-    height: 600px;
+    height: 630px;
     margin: 50px 180px;
     border: 2px solid #1e1e1e;
     border-radius: 20px;
@@ -59,6 +58,80 @@ body {
 
 .tag {
     color: #afafaf;
+}
+
+.message {
+    display: flex;
+    gap: 16px;
+}
+
+.message a {
+    background-color: #161616;
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.message a:hover {
+    background-color: #4f4f4f;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+#emailme {
+    background-color: #2fa45c;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+#emailme:hover {
+    background-color: #3fd076;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.horizontal-divider {
+    background-color: #676767;
+    height: 2px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.personal-info {
+    color: #e6e6e6;
+    padding: 12px;
+}
+
+.personal-title {
+    font-weight: 600;
+}
+
+.likes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+
+.likes-title {
+    color: #9a9a9a;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+}
+
+.experience-title {
+    color: #9a9a9a;
 }
 
 .spotify {
@@ -122,69 +195,7 @@ body {
     border-radius: 12px;
 }
 
-.message {
-    display: flex;
-    gap: 16px;
-}
-
-.message a {
-    background-color: #161616;
-    color: #e6e6e6;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 8px 12px;
-    margin-bottom: 16px;
-    border-radius: 4px;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-}
-
-.message a:hover {
-    background-color: #4f4f4f;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-}
-
-#emailme {
-    background-color: #2fa45c;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-}
-
-#emailme:hover {
-    background-color: #3fd076;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-}
-
-.horizontal-divider {
-    background-color: #676767;
-    height: 2px;
-    width: 100px;
-    border-radius: 20px;
-}
-
-.personal-info {
-    color: #e6e6e6;
-    padding: 12px;
-}
-
-.personal-title {
-    font-weight: 600;
-}
-
-.age {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.age-title {
-    color: #9a9a9a;
-}
-
 .vertical-divider {
-    display: flex;
     background-color: #464646;
     margin: 85px 0 85px 0;
     width: 2px;
@@ -244,7 +255,7 @@ body {
 .desc {
     color: #e6e6e6;
     padding: 16px 20px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .desc-topic {
@@ -253,7 +264,7 @@ body {
 }
 
 .desc-info {
-    height: 380px;
+    height: 410px;
     overflow-y: auto;
 }
 
