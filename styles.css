@@ -22,7 +22,9 @@ body {
 
 .body {
     display: flex;
+    align-self: center;
     height: 630px;
+    width: 1050px;
     margin: 50px 180px;
     border: 2px solid #575757;
     border-radius: 20px;
@@ -257,7 +259,7 @@ body {
 }
 
 .desc-info {
-    height: 410px;
+    height: 395px;
     margin-top: 16px;
     overflow-y: auto;
 }
