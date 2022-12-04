@@ -9,7 +9,7 @@ body {
     min-height: 100vh;
 }
 
-.desc-info {
+.pages {
     display: flex;
     gap: 16px;
 }
@@ -17,6 +17,7 @@ body {
 .desc-info a {
     color: #e6e6e6;
     text-decoration: none;
+    width: 300px;
 }
 
 .interest-page {
@@ -28,7 +29,6 @@ body {
 }
 
 .interest-page img {
-    width: 300px;
     height: 130px;
     object-fit: cover;
     object-position: 0 15%;
