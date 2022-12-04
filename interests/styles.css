@@ -9,25 +9,43 @@ body {
     min-height: 100vh;
 }
 
-.desc-info h1 {
-    color: #e6e6e6;
-    font-size: 20px;
-    font-weight: 600;
+.desc-info {
+    display: flex;
+    gap: 16px;
 }
 
-.desc-info img {
-    height: 100px;
-    width: 450px;
-    border: 2px solid #e6e6e6;
-    margin-top: 12px;
+.desc-info a {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.interest-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.interest-page img {
+    width: 300px;
+    height: 130px;
     object-fit: cover;
     object-position: 0 15%;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
 }
 
-.desc-info p {
-    color: #e6e6e6;
-    margin-top: 4px;
-    font-size: 14px;
+.interest-page img:hover {
+    filter: brightness(40%);
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.interest-title {
+    padding: 14px 16px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /* main code, seperating from pages code to avoid confusion */
