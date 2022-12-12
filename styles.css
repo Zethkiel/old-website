@@ -7,27 +7,20 @@ body {
     min-height: 100vh;
 }
 
-.header {
-    display: flex;
-    padding-top: 20px;
-    align-items: center;
-    justify-content: center;
-    color: #e6e6e6;
-    font-size: 20px;
-    font-weight: 700;
-    gap: 16px;
-}
-
 .body {
     display: flex;
-    align-self: center;
     height: 630px;
     width: 1050px;
-    margin: 50px 180px;
     border: 2px solid #575757;
     border-radius: 20px;
     overflow: hidden;
     background-color: #2f2f2f;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .profile {
