@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: #272727;
     display: flex;
@@ -241,7 +241,7 @@ body {
 .desc {
     color: #e6e6e6;
     padding: 16px 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .desc-topic {
