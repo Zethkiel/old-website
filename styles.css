@@ -127,65 +127,11 @@ body {
     color: #9a9a9a;
 }
 
-.spotify {
-    color: #e6e6e6;
-    font-size: 12px;
-    font-weight: 800;
+.youtube {
     width: 270px;
-    margin: 16px;
-    padding: 10px;
-    background-color: #1DB954;
+    padding: 15px;
     border-radius: 10px;
     cursor: default;
-}
-
-.song {
-    display: flex;
-    padding-top: 8px;
-}
-
-.song-info {
-    padding-left: 8px;
-    font-size: 12px;
-}
-
-.song-info a {
-    color: #e6e6e6;
-    text-decoration: none;
-}
-
-.song-info a:hover {
-    text-decoration: underline;
-}
-
-.song-artist {
-    font-weight: 400;
-    padding: 4px 0 4px 0;
-}
-
-.album {
-    font-weight: 400;
-}
-
-.progress-bar {
-    display: flex;
-    background-color: #4ec278;
-    margin-top: 8px;
-    height: 4px;
-    border-radius: 12px;
-}
-
-.progress-number {
-    display: flex;
-    font-weight: 400;
-    justify-content: space-between;
-    padding-top: 2px;
-}
-
-.playing {
-    background-color: #b4ebc8;
-    width: 50px;
-    border-radius: 12px;
 }
 
 .vertical-divider {

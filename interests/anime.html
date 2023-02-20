@@ -9,6 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="../images/nijika.ico">
     <title>Zethkiel - Interests</title>
+    <script type="text/javascript">
+        $('html').addClass('hidden');
+        $(document).ready(function() {    // EDIT: From Adam Zerner's comment below: Rather use load: $(window).on('load', function () {...});
+            $('html').removeClass('hidden');
+        });
+    </script>
 </head>
 <body>
 <div class="body">
@@ -25,32 +31,14 @@
         </div>
         <div class="likes">
             <div class="likes-title">Likes:</div>
-            <div class="likes-info">Anime, coding, gaming (I don't game as much anymore)</div>
+            <div class="likes-info">Anime, coding, gaming</div>
         </div>
         <div class="experience">
             <div class="experience-title">Coding experience:</div>
             <div class="experience-info">HTML, CSS, and a bit of JS</div>
         </div>
         <div class="horizontal-divider"></div>
-        <div class="spotify">
-            LISTENING TO SPOTIFY
-            <div class="song">
-                <img src="https://i.scdn.co/image/ab67616d00001e0261144ee4d7a377931bb6a69c" width="61px">
-                <div class="song-info">
-                    <div class="song-title"><a href="https://open.spotify.com/track/3P3UA61WRQqwCXaoFOTENd">Sis puella magica!</a></div>
-                    <div class="song-artist">by <a href="https://open.spotify.com/artist/3HqSLMAZ3g3d5poNaI7GOU">Yuki Kajiura</a></div>
-                    <div class="album">on <a href="https://open.spotify.com/album/5V8n6fqyAPxvFTibPhQVcp?uid=54b5648686bd43c343df">「魔法少女まどか☆マギカ」...</a></div>
-                </div>
-            </div>
-            <div class="progress-bar">
-                <div class="playing"></div>
-            </div>
-            <div class="progress-number">
-                <div>0:27</div>
-                <div>2:49</div>
-            </div>
-        </div>
-    </div>
+        <iframe class="youtube" src="https://www.youtube.com/embed/trCYH2JZBpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
     <div class="vertical-divider"></div>
     <div class="info">
         <div class="navbar">
